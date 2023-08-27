@@ -6,17 +6,24 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-sb-types": "storyblok-generate-ts source=./components.245316.json target=./component-types-sb"
   },
   "dependencies": {
+    "@storyblok/react": "^2.4.0",
     "@types/node": "20.4.7",
     "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
+    "isomorphic-fetch": "^3.0.0",
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "storyblok": "^3.25.0",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "storyblok-generate-ts": "^1.15.0"
   }
 }

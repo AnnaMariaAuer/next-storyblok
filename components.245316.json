@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "name": "feature",
+      "display_name": null,
+      "created_at": "2023-08-05T10:04:32.940Z",
+      "updated_at": "2023-08-05T10:04:32.940Z",
+      "id": 4383488,
+      "schema": {
+        "name": {
+          "type": "text"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "feature",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "grid",
+      "display_name": null,
+      "created_at": "2023-08-05T10:04:32.925Z",
+      "updated_at": "2023-08-05T10:04:32.925Z",
+      "id": 4383487,
+      "schema": {
+        "columns": {
+          "type": "bloks"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "grid",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "page",
+      "display_name": null,
+      "created_at": "2023-08-05T10:04:32.896Z",
+      "updated_at": "2023-08-05T10:04:32.896Z",
+      "id": 4383485,
+      "schema": {
+        "body": {
+          "type": "bloks"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "page",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "teaser",
+      "display_name": "Überschrift",
+      "created_at": "2023-08-05T10:04:32.911Z",
+      "updated_at": "2023-08-08T15:53:20.799Z",
+      "id": 4383486,
+      "schema": {
+        "headline": {
+          "type": "text",
+          "display_name": "Überschrift"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Überschrift",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "textField",
+      "display_name": "Fließtext",
+      "created_at": "2023-08-08T15:54:08.205Z",
+      "updated_at": "2023-08-08T15:55:11.994Z",
+      "id": 4395190,
+      "schema": {
+        "text": {
+          "type": "textarea"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Fließtext",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": "block-text-l"
+    }
+  ]
+}
